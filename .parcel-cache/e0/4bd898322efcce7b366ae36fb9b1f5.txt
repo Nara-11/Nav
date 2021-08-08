@@ -1,0 +1,12 @@
+11
+29D:\file\nav\demo1\src\main.js132678127507181309 0
+22D:\file\nav\demo1\dist132660719986847834 1
+21D:\file\nav\demo1\src132658004628565756 1
+44D:\file\nav\demo1\dist\index.bd78eeec.js.map132660719986847834 0
+40D:\file\nav\demo1\dist\index.bd78eeec.js132660719986817832 0
+31D:\file\nav\demo1\src\style.css132678127552906338 0
+26D:\file\nav\demo1\src\imgs132658004589879528 1
+32D:\file\nav\demo1\src\index.html132678127584340775 0
+41D:\file\nav\demo1\dist\index.de60a1d7.css132660719986817832 0
+45D:\file\nav\demo1\dist\index.de60a1d7.css.map132660719986837779 0
+33D:\file\nav\demo1\dist\index.html132660719986817832 0

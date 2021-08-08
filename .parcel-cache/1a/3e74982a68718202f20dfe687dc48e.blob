@@ -1,0 +1,35 @@
+const $siteList=$('.siteList')
+const hashMap=[
+    {logo:'A',logoType:'text',url:'https://www.acfun.cn'},
+    {logo:'B',logoType:'text',url:'https://www.bilibili.com'}
+]
+hashMap.forEach(node=>{
+    const $li=$(`
+        <li>
+            <a href="${node.url}">
+                <div class="site">
+                    <div class="logo">${node.logo.toUpperCase()}</div>
+                    <div class="link">${node.url}</div>
+                </div>
+            </a>
+        </li>
+    `)
+})
+$('.addButton').on('click',()=>{
+    let url=window.prompt('添加网址')
+    if(url.indexOf('http')!==0){
+        url='https://'+url
+    }
+    const $lastLi=$siteList.find('li.last')
+    const $site=$(`
+        <li>
+            <a href="${url}">
+                <div class="site">
+                    <div class="logo">${url[0].toUpperCase()}</div>
+                    <div class="link">${url}</div>
+                </div>
+            </a>
+        </li>
+    `)
+    $site.insertBefore($lastLi)
+})

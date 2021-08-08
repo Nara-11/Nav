@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  background: #eee;
+}
+.globalHeader {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.globalHeader > input {
+  width: 100%;
+  margin-right: 10px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.globalHeader > button {
+  white-space: nowrap;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background: #45b6f7;
+}
+.globalMain {
+}
+.siteList {
+}
+.siteList > li {
+}
+.siteList .site {
+}
+.siteList .site > .logo {
+}
+.siteList .site > .link {
+}

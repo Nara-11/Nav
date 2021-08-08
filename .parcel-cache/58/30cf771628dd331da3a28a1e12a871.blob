@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+}
+.globalHeader {
+}
+.globalHeader > input {
+}
+.globalHeader > button {
+}
+.globalMain {
+}
+.siteList {
+}
+.siteList > li {
+}
+.siteList .site {
+}
+.siteList .site > .logo {
+}
+.siteList .site > .link {
+}
